@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['person']
+
+roboflow:
+  workspace: digital-signal-processing
+  project: person-detection-dizkz
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/digital-signal-processing/person-detection-dizkz/dataset/2
